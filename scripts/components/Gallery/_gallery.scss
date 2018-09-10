@@ -1,0 +1,8 @@
+.gallery_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
+    grid-gap: 10px;
+    width: 90vw;
+    margin-top: calc(5vh + 114px);
+    padding-bottom: 5vh;
+}
